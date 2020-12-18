@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+#rectangle {
+    width: 800px;
+    height: 533px;
+    border: 2px solid black;
+    margin-top: 2rem;
+    
+}
+
+.bouton {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: white;
+
+}
+
+.bouton:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
