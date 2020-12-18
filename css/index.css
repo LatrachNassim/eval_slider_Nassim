@@ -23,3 +23,14 @@
 .bouton:hover {
 background-color: rgba(0, 0, 0, 0.8);
 }
+
+.point {
+    cursor: pointer;
+  background-color:grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+    background-color: black;
+  }
